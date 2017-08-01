@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swong87/friendFinder.git"
+  },
+  "author": "swong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swong87/friendFinder/issues"
+  },
+  "homepage": "https://github.com/Swong87/friendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}
