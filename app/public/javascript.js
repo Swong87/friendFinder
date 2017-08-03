@@ -8,7 +8,7 @@
 		    if ( $(this).val() === '' )
 		        isValid = false;
 		  });
-
+		  // Checks if the input fields are filled in
 		  $('.chosen-select').each(function() {
 
 		  	if( $(this).val() === "")
@@ -27,10 +27,6 @@
 	    		scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
 	    	}
 
-	    	// $.post("/api/friends", userData)
-		    //   .done(function(data) {
-		    //     console.log(data);
-		    //   });
 	    	// Grab the URL of the website
 			var currentURL = window.location.origin;
 
@@ -53,22 +49,3 @@
     	
     	return false;
     });
-
-// var resultArray = [];
-
-// var arrayOne = data.scores;
-// var arrayTwo = data.scores;
-
-// compare(arrayOne, arrayTwo);
-// console.log(resultArray.reduce(add,0));
-
-// function add(a, b){
-// 	return a + b;
-// };
-
-// function compare(array1, array2){
-// 	for (var i = 0; i < array1.length; i++){
-// 		var matchNum = Math.abs(array1[i] - array2[i]);
-// 		resultArray.push(matchNum);
-// 	}
-// };
